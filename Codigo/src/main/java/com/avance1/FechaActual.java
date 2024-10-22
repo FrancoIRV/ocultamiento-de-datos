@@ -1,8 +1,9 @@
-package com.avance1;
+package main.java.com.avance1;
 import java.util.Calendar;
 
 
 public class FechaActual {
+
     String tiempoActual;
     public int dia;
     private int mes;
@@ -10,6 +11,7 @@ public class FechaActual {
 
 
     public void imprimirFechaActual() {
+
         Calendar calendario = Calendar.getInstance();
         tiempoActual = calendario.get(Calendar.HOUR_OF_DAY) + ":" + calendario.get(Calendar.MINUTE) + ":" + calendario.get(Calendar.SECOND);  /* convierto los enteros a una string*/
         dia = calendario.get(Calendar.DATE);
@@ -18,5 +20,7 @@ public class FechaActual {
         System.out.println("Hora:" + " " + tiempoActual);
         System.out.println("Fecha:" + " " + mes + " " + dia + " " + año); /* imprimo la fecha y hora */
 
-        }
+    }
 }
+
+
