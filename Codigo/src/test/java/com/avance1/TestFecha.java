@@ -1,5 +1,3 @@
-package main.java.com.avance1;
-
 public class TestFecha {
 
     public void main(String [] args){
