@@ -1,4 +1,4 @@
-package main.java.com.avance1;
+package com.avance1;
 import java.util.Calendar;
 
 
